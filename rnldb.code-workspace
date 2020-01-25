@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "component"
+		},
+		{
+			"path": "examples"
+		},
+		{
+			"path": "dist"
+		}
+	],
+	"settings": {}
+}

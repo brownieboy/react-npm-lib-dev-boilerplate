@@ -1,0 +1,68 @@
+{
+  "name": "react-npm-lib-dev-boilerplate",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "Boilerplate for creating React NPM packages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brownieboy/react-npm-lib-dev-boilerplate.git"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "boilerplatw",
+    "component"
+  ],
+  "bugs": {
+    "url": "https://github.com/brownieboy/react-npm-lib-dev-boilerplate/issues"
+  },
+  "author": "Michael Brown <brownieboy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/plugin-transform-modules-umd": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/register": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.1.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "scripts": {
+    "build": "npx webpack",
+    "buildforexamples": "npx webpack",
+    "start": "watch 'npx webpack' ./src"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "lodash": "^4.17.15",
+    "pretty-bytes": "^5.3.0",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dropzone": "^10.2.1",
+    "react-firebase-file-uploader": "^2.4.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
